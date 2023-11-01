@@ -1,0 +1,36 @@
+.h1{
+text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  padding: 50px 30px 30px 30px;
+}
+
+.para{
+    text-align: center;
+    background-color: #ffefd5;
+    font-family:cursive;
+    margin: 0 0 90px 0;
+    border: 2px solid rgb(250, 190, 100);
+    padding: 0 50px 0 0px;
+}
+
+.arch{
+    height: 400px;
+    width: 400px;
+    margin: 0 0 0 100px;
+}
+
+.digital{
+    height:400px;
+    width: 400px;
+}
+
+.painting{
+    height: 400px;
+    width: 400px;
+    margin: 0 100px 0 0;
+}
+
+.h4{
+    font-family: cursive;
+}
