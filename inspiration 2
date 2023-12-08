@@ -1,0 +1,141 @@
+css
+
+.painting1{
+        height: 400px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart{
+        width: 200px;
+    }
+    .colorpencil1{
+        height: 200px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart2{
+        width: 200px;
+    }
+    .graphitepencil1{
+        height: 200px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart3{
+        width: 200px;
+    }
+    .digital1{
+        height: 200px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart4{
+        width: 200px;
+    }
+    .architecture1{
+        height: 200px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart5{
+        width: 200px;
+    }
+    .interiordesign1{
+        height: 200px;
+        width: 200px;
+        margin: 0 100px 0 0;
+    }
+    #parart6{
+        width: 200px;
+    } 
+
+html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Parart 
+        </title>
+        <style>
+            h1 {text-align: center;}
+            
+            </style>
+        <link rel="stylesheet" href="mainproject.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        </head>
+<link rel="stylesheet" href="mainproject.css"
+
+        <body>
+            <h1> Find Inspiration!</h1>
+            <p>Struggling with creative block? Look no further! Scroll through and peruse works uploaded by fellow artists and designers 
+                to get those creative juices flowing. Feel free to upload your own work as well to help out others!
+            </p>
+
+            <h3>Paintings</h3>
+            <img src="Painting1.jpeg" class="Painting1" alt="sample image" id="parart">
+
+        
+        
+           
+            <br><br>
+
+            <h3>Colored Pencil</h3>
+            <img src="color pencil.jpeg" class="colorpencil1" alt="sample image" id="parart2">
+            
+            <br><br>
+
+            <h3>Graphite Pencil</h3>
+            <img src="graphite pencils.jpeg" class="graphitepencil1" alt="sample image" id="parart3">
+            
+
+            <br><br>
+
+            <h3>Digital </h3>
+            <img src="digital.jpeg" class="digital1" alt="sample image" id="parart4"
+           
+            <br><br>
+
+            <h3>Architecture</h3>
+            <img src="architecture.jpeg" class="architecture1" alt="sample image" id="parart5">
+            
+            <br><br>
+
+            <h3>Interior Design</h3>
+            <img src="interior design.jpg" class="interiordesign1" alt="sample image" id="parart6">
+           
+            <br><br>
+            <hr>
+            <br><br>
+
+            <h3>Submit your work here!</h3>
+
+            <br>
+
+            <form>
+                <label for="username">Add Link:</label>
+                <input type="text" id="link"name="link">
+            </form>
+
+            <br>
+
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                 Choose a Category
+                </button>
+                <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Painting</a></li>
+                     <li><a class="dropdown-item" href="#">Colored Pencil</a></li>
+                     <li><a class="dropdown-item" href="#">Graphite Pencil</a></li>
+                     <li><a class="dropdown-item" href="#">Digital</a></li>
+                     <li><a class="dropdown-item" href="#">Architecture</a></li>
+                     <li><a class="dropdown-item" href="#">Interior Design</a></li>
+                </ul>
+              </div>
+
+            
+        </body>
+        </html>
